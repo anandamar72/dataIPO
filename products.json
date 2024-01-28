@@ -1,0 +1,42 @@
+[
+    {
+        "company_name": "Nova Agritech Limited",
+        "security_type": "EQ",
+        "issue_price": "10.00",
+        "symbol": "NOVAAGRI",
+        "issue_start_date": "2024-01-23",
+        "issue_end_date": "2024-01-25",
+        "price_range": "39-41",
+        "date_of_listing": "2024-01-23"
+    },
+    {
+        "company_name": "EPACK Durable Limited",
+        "security_type": "EQ",
+        "issue_price": "10.00",
+        "symbol": "EPACk",
+        "issue_start_date": "2024-01-23",
+        "issue_end_date": "2024-01-25",
+        "price_range": "39-41",
+        "date_of_listing": "2024-01-23"
+    },
+    {
+        "company_name": "Nova Agritech Limited",
+        "security_type": "EQ",
+        "issue_price": "10.00",
+        "symbol": "NOVAAGRI",
+        "issue_start_date": "2024-01-23",
+        "issue_end_date": "2024-01-25",
+        "price_range": "39-41",
+        "date_of_listing": "2024-01-23"
+    },
+    {
+        "company_name": "Nova Agritech Limited",
+        "security_type": "EQ",
+        "issue_price": "10.00",
+        "symbol": "NOVAAGRI",
+        "issue_start_date": "2024-01-23",
+        "issue_end_date": "2024-01-25",
+        "price_range": "39-41",
+        "date_of_listing": "2024-01-23"
+    }
+]
