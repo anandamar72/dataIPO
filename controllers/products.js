@@ -10,10 +10,10 @@ const getAllProducts = async (req, res) => {
             security_type: data.securityType,
             issue_price: parseFloat(data.issuePrice),
             symbol: data.symbol,
-            issue_start_date: data.issueStartDate.toISOString(),
-            issue_end_date: data.issueEndDate.toISOString(),
+            issue_start_date: data.issueStartDate,
+            issue_end_date: data.issueEndDate,
             price_range: data.priceRange,
-            date_of_listing: data.dateOfListing.toISOString()
+            date_of_listing: data.dateOfListing
         }));
         
         res.status(200).json(formattedData);
