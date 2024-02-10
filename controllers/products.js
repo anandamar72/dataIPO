@@ -6,14 +6,14 @@ const getAllProducts = async (req, res) => {
         
         // Map MongoDB document fields to match the expected JSON structure
         const formattedData = myData.map(data => ({
-            company_name: data.name,
-            security_type: data.securityType,
-            issue_price: parseFloat(data.issuePrice),
+            company_name: data.company_name,
+            security_type: data.security_type,
+            issue_price: parseFloat(data.issue_price),
             symbol: data.symbol,
-            issue_start_date: data.issueStartDate,
-            issue_end_date: data.issueEndDate,
-            price_range: data.priceRange,
-            date_of_listing: data.dateOfListing
+            issue_start_date: data.issue_start_date,
+            issue_end_date: data.issue_end_date,
+            price_range: data.price_range,
+            date_of_listing: data.date_of_listing
         }));
         
         res.status(200).json(formattedData);
