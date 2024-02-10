@@ -26,13 +26,13 @@ const ipoSchema = new mongoose.Schema({
         maxlength: [20, 'Symbol cannot be more than 20 characters']   
     },
     issue_start_date: {
-        type: Date,
+        type: String,
         required: [true, 'Please provide issue start date'],
         trim: true,
         maxlength: [20, 'Issue start date cannot be more than 20 characters']   
     },
     issue_end_date: {
-        type: Date,
+        type: String,
         required: [true, 'Please provide issue end date'],
         trim: true,
         maxlength: [20, 'Issue end date cannot be more than 20 characters']   
@@ -44,7 +44,7 @@ const ipoSchema = new mongoose.Schema({
         maxlength: [20, 'Price range cannot be more than 20 characters']   
     },
     date_of_listing: {
-        type: Date,
+        type: String,
         required: [true, 'Please provide date of listing'],
         trim: true,
         maxlength: [20, 'Date of listing cannot be more than 20 characters']   
